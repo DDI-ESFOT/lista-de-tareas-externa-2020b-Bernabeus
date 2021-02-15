@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 import '../styles/App.css';
+import Infuser from './Infuser';
 
-function App() {
-  return (
-    <div>Hola</div>
-  );
-}
+const App = () => (
+  <>
+    <Infuser />
+  </>
+);
 
 export default App;
